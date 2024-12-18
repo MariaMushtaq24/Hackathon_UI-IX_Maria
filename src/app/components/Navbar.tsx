@@ -27,11 +27,11 @@ const Navbar = () => {
       </div>
 
       {/*MidBar*/}
-      <div className="lex justify-between items-center bg-gray-100 border-4 border-green-500 px-4 sm:px-12 md:px-28">
+      <div className="lex justify-between items-center bg-gray-100 border-8 border-gray-100 px-4 sm:px-12 md:px-28">
         <div className="container mx-auto flex justify-between items-center">
           {/* logo */}
           <div className="flex items-center space-x-2 size-8">
-          <img src="https://cdn-icons-png.flaticon.com/512/10199/10199403.png" alt="Comforty Logo"  />
+          <img src="/images/Logo icon.png" alt="Comforty Logo"  />
             <span className="text-xl font-bold text-gray-600">Comforty</span>
           </div>
 
@@ -65,8 +65,8 @@ const Navbar = () => {
             <a href="/Shop" className="hover:text-teal-600">
               Shop
             </a>
-            <a href="/Product" className="hover:text-teal-600">
-              Product
+            <a href="/Products" className="hover:text-teal-600">
+              Products
             </a>
             <a href="/Pages" className="hover:text-teal-600">
               Pages
@@ -92,8 +92,8 @@ const Navbar = () => {
           <a href="Shop.html" className="hover:text-teal-600">
             Shop
           </a>
-          <a href="Product.html" className="hover:text-teal-600">
-            Product
+          <a href="Products.html" className="hover:text-teal-600">
+            Products
           </a>
           <a href="Pages.html" className="hover:text-teal-600">
             Pages

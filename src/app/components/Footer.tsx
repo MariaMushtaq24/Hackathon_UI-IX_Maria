@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex flex-col w-full  md:w-[320px] items-start">
           <div className="flex items-center space-x-2 size-10">
-          <img src="https://cdn-icons-png.flaticon.com/512/10199/10199403.png" alt="Comforty Logo"  />
+          <img src="/images/Logo icon.png" alt="Comforty Logo"  />
             <span className="text-xl font-bold text-gray-700">Comforty</span>
           </div>
             <p className="mt-4 text-gray-500">

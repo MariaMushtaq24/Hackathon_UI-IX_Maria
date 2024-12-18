@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="w-full max-w-screen-xl h-auto bg-[#F0F2F3] flex flex-col sm:flex-row justify-between items-center px-6 sm:px-10 lg:px-16 py-6">
-        <div className="flex flex-col justify-center items-center sm:items-start w-full sm:w-1/2 space-y-4 sm:space-y-6">
+        <div className="flex flex-col justify-center items-center sm:items-start w-full sm:w-1/2 space-y-4 sm:space-y-2">
           <h1 className="text-[14px] pt-[50px] sm:pt-[119px] font-normal text-[#272343] text-center sm:text-left">
             WELCOME TO CHAIRY
           </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
 
         <div className="w-full sm:w-1/2 mt-6 sm:mt-0 sm:ml-[130px] flex justify-center">
-          <Image src="/app/Products/Product Image.png" alt="Product Image" width={434} height={584} 
+          <Image src="/images/Product Image (1).png" alt="Product Image" width={434} height={584} 
           />
         </div>
       </div>

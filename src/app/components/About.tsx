@@ -37,7 +37,7 @@ export default function About() {
       <h1 className="text-center text-2xl md:text-3xl font-bold mb-6 mt-20">
         What Makes Our Brand Different
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 px-6 md:px-48 py-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 px-6 md:px-28 py-8">
         {[
           {
             emoji: '🚚',
@@ -72,7 +72,7 @@ export default function About() {
       </div>
 
       {/* Products Section */}
-      <div className="sm:px-8 md:px-16 lg:px-40 py-8">
+      <div className="sm:px-8 md:px-16 lg:px-28 py-8">
         <h1 className="text-2xl font-bold mb-8">Our Popular Products</h1>
         <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 gap-1">
           {/* Item 1 */}

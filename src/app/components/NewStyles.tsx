@@ -3,20 +3,20 @@ import Image from "next/image";
 
 export default function NewStyles() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white">
-      <div className="relative grid grid-cols-2 md:grid-cols-3 gap-4 p-6 border-2 border-blue-400">
+    <div className="flex items-center justify-center sm:px-8 md:px-16 lg:px-28 py-8  min-h-screen">
+      <div className="relative grid grid-cols-2 md:grid-cols-3 gap-4 p-6">
         {/* Vertical Text */}
-        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 -rotate-90 origin-left text-gray-700 text-lg font-semibold">
+        <div className="absolute left-0 top-3/4 transform -translate-y-1/2 -rotate-90 origin-left text-gray-700 text-lg font-semibold">
           EXPLORE NEW AND POPULAR STYLES
         </div>
 
         {/* Large Image */}
         <div className="col-span-2 md:col-span-1">
           <Image
-            src="/orange-chair.jpg"
+            src="/images/chair3.png"
             alt="Orange Chair"
-            width={400}
-            height={500}
+            width={648}
+            height={648}
             layout="responsive"
             className="object-cover"
           />
@@ -25,34 +25,34 @@ export default function NewStyles() {
         {/* Grid of Smaller Images */}
         <div className="grid grid-cols-2 gap-4 col-span-2 md:col-span-1">
           <Image
-            src="/white-chair-1.jpg"
+            src="/images/chair4.png"
             alt="White Chair 1"
-            width={200}
-            height={200}
+            width={312}
+            height={312}
             layout="responsive"
             className="object-cover"
           />
           <Image
-            src="/white-chair-2.jpg"
+            src="/images/chair01.png"
             alt="White Chair 2"
-            width={200}
-            height={200}
+            width={312}
+            height={312}
             layout="responsive"
             className="object-cover"
           />
           <Image
-            src="/gray-chair.jpg"
+            src="/images/chair6.png"
             alt="Gray Chair"
-            width={200}
-            height={200}
+            width={312}
+            height={312}
             layout="responsive"
             className="object-cover"
           />
           <Image
-            src="/white-chair-3.jpg"
+            src="/images/chair01.png"
             alt="White Chair 3"
-            width={200}
-            height={200}
+            width={312}
+            height={312}
             layout="responsive"
             className="object-cover"
           />

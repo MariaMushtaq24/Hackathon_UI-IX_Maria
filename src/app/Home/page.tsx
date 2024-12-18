@@ -1,8 +1,9 @@
 import React from "react";
-import Home from "../components/FeaturedProducts";
 import Hero from "../components/Hero";
 import FeaturedProducts from "../components/FeaturedProducts";
 import TopCategories from "../components/TopCategories";
+import ProductGrid from "../components/ProductGrid";
+import NewStyles from "../components/NewStyles";
 
 const page = () => {
     return (
@@ -10,6 +11,8 @@ const page = () => {
         <Hero/>
         <FeaturedProducts/>
         <TopCategories/>
+        <NewStyles/>
+        <ProductGrid/>
       </div>
     );
 }
