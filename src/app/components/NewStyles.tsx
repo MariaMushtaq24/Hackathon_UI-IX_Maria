@@ -17,7 +17,6 @@ export default function NewStyles() {
             alt="Orange Chair"
             width={648}
             height={648}
-            layout="responsive"
             className="object-cover"
           />
         </div>
@@ -29,7 +28,6 @@ export default function NewStyles() {
             alt="White Chair 1"
             width={312}
             height={312}
-            layout="responsive"
             className="object-cover"
           />
           <Image
@@ -37,7 +35,6 @@ export default function NewStyles() {
             alt="White Chair 2"
             width={312}
             height={312}
-            layout="responsive"
             className="object-cover"
           />
           <Image
@@ -45,7 +42,6 @@ export default function NewStyles() {
             alt="Gray Chair"
             width={312}
             height={312}
-            layout="responsive"
             className="object-cover"
           />
           <Image
@@ -53,7 +49,6 @@ export default function NewStyles() {
             alt="White Chair 3"
             width={312}
             height={312}
-            layout="responsive"
             className="object-cover"
           />
         </div>

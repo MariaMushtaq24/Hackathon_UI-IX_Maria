@@ -21,9 +21,9 @@ const InstagramGrid = () => {
             <Image
               src={product.image}
               alt={product.alt}
-              fill // Makes the image fill the parent container
+              fill
               style={{ objectFit: 'cover' }}
-              sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 16vw" // Optimize image sizes
+              sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 16vw" 
             />
           </div>
         ))}
