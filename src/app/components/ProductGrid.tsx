@@ -15,7 +15,7 @@ const ProductGrid = () => {
   return (
     <section className="px-4 sm:px-8 md:px-16 lg:px-28 py-8">
       <h2 className="text-3xl font-semibold text-center mb-2">Our Products</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-[312] h-[312]">
         {products.map((product, index) => (
           <ProductCard key={index} product={product} />
         ))}

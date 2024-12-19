@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="container mx-auto flex justify-between items-center">
           {/* logo */}
           <div className="flex items-center space-x-2 size-8">
-          <img src="/images/Logo icon.png" alt="Comforty Logo"  />
+          <img src="/images/Logo icon.png" alt="Comforty Logo" />
             <span className="text-xl font-bold text-gray-600">Comforty</span>
           </div>
 

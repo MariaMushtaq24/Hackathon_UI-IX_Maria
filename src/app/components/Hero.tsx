@@ -11,7 +11,7 @@ const Hero = () => {
           <p className="w-full sm:w-[557px] text-[40px] sm:text-[60px] font-bold text-center sm:text-left mb-6">
             Best Furniture Collection for your interior.
           </p>
-          <button className="bg-[#029FAE] w-[171px] text-white py-3 px-6 rounded-[8px] flex items-center gap-[20px] hover:bg-blue-700 mx-auto sm:mx-0">
+          <button className="bg-[#029FAE] w-[171px] text-white py-3 px-6 rounded-[8px] flex items-center gap-[20px] hover:bg-teal-900 mx-auto sm:mx-0">
             <span>Shop Now</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"

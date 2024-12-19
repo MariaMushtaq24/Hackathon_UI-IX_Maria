@@ -14,7 +14,7 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
-    <div className="relative group overflow-hidden bg-white p-4 ">
+    <div className="relative group overflow-hidden bg-white p-4">
       {/* Label */}
       {product.label && (
         <div
@@ -31,14 +31,16 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <Image
           src={product.image}
           alt={product.name}
-          layout="fill"
-          objectFit="cover"
+          fill
           className="rounded"
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
         />
       </div>
 
       {/* Product Details */}
-      <h3 className="text-gray-700 font-medium hover:text-[#029FAE] text-md mb-1">{product.name}</h3>
+      <h3 className="text-gray-700 font-medium hover:text-[#029FAE] text-md mb-1">
+        {product.name}
+      </h3>
       <div className="flex items-center space-x-2">
         <span className="text-lg font-semibold">${product.price}</span>
         {product.salePrice && (
