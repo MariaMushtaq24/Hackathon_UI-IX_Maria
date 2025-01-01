@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
 
       {/*MidBar*/}
-      <div className="lex justify-between items-center bg-gray-100 border-8 border-gray-100 px-4 sm:px-12 md:px-28">
+      <div className="flex justify-between items-center bg-gray-100 border-8 border-gray-100 px-4 sm:px-12 md:px-28">
         <div className="container mx-auto flex justify-between items-center">
           {/* logo */}
           <div className="flex items-center space-x-2 size-8">
